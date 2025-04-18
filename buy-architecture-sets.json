@@ -1,0 +1,74 @@
+[
+	{
+		"name": "Trevi Fountain",
+		"pieces": 1880,
+		"set": 21062,
+		"release": 2025,
+		"retired": 2028,
+		"width": "15 in (38 cm)",
+		"height": "10 in (25 cm)",
+		"depth": "7 in (18 cm)",
+		"cost": "$159.99",
+		"link": "https://www.lego.com/en-us/product/trevi-fountain-21062"
+	},
+	{
+		"name": "Notre-Dame de Paris",
+		"pieces": 4383,
+		"set": 21061,
+		"release": 2024,
+		"retired": 2027,
+		"width": "13 in (33 cm)",
+		"height": "8.5 in (22 cm)",
+		"depth": "16 in (41 cm)",
+		"cost": "$229.99",
+		"link": "https://www.lego.com/en-us/product/notre-dame-de-paris-21061"
+	},
+	{
+		"name": "Himeji Castle",
+		"pieces": 2125,
+		"set": 21060,
+		"release": 2023,
+		"retired": 2026,
+		"width": "12.5 in (32 cm)",
+		"height": "7.5 in (19 cm)",
+		"depth": "10.5 in (27 cm)",
+		"cost": "$159.99",
+		"link": "https://www.lego.com/en-us/product/himeji-castle-21060"
+	},
+	{
+		"name": "Taj Mahal",
+		"pieces": 2022,
+		"set": 21056,
+		"release": 2021,
+		"retired": 2024,
+		"width": "10 in (23 cm)",
+		"height": "8 in (20 cm)",
+		"depth": "10 in (23 cm)",
+		"cost": "$119.99",
+		"link": "https://www.amazon.com/LEGO-Architecture-Building-Engaging-Project/dp/B08STQBXN4?th=1"
+	},
+	{
+		"name": "Statue of Liberty",
+		"pieces": 1685,
+		"set": 21042,
+		"release": 2018,
+		"retired": 2026,
+		"width": "5 in (14 cm)",
+		"height": "17 in (44 cm)",
+		"depth": "5 in (14 cm)",
+		"cost": "$119.99",
+		"link": "https://www.lego.com/en-us/product/statue-of-liberty-21042"
+	},
+	{
+		"name": "New York City",
+		"pieces": 598,
+		"set": 21028,
+		"release": 2016,
+		"retired": 2025,
+		"width": "9 in (23 cm)",
+		"height": "10 in (23 cm)",
+		"depth": "1 in (3 cm)",
+		"cost": "$59.99",
+		"link": "https://www.lego.com/en-us/product/new-york-city-21028"
+	}
+]

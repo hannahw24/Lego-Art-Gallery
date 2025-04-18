@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Paris",
+		"pieces": 649,
+		"set": 21044,
+		"release": 2019,
+		"retired": 2025,
+		"width": "11 in (28 cm)",
+		"height": "8 in (22 cm)",
+		"depth": "4 in (11 cm)",
+		"build_time": "4 hours"
+	},
+	{
+		"name": "London",
+		"pieces": 468,
+		"set": 21034,
+		"release": 2017,
+		"retired": 2026,
+		"width": "11 in (28 cm)",
+		"height": "5 in (13 cm)",
+		"depth": "3 in (8 cm)",
+		"build_time": "3.5 hours"
+	},
+	{
+		"name": "Singapore",
+		"pieces": 827,
+		"set": 21057,
+		"release": 2022,
+		"retired": 2024,
+		"width": "11 in (28 cm)",
+		"height": "6.5 in (16 cm)",
+		"depth": "3.5 in (9 cm)",
+		"build_time": "4.5 hours"
+	},
+	{
+		"name": "San Francisco",
+		"pieces": 565,
+		"set": 21043,
+		"release": 2019,
+		"retired": 2021,
+		"width": "11 in (28 cm)",
+		"height": "6 in (16 cm)",
+		"depth": "2 in (7 cm)",
+		"build_time": "3 hours"
+	},
+	{
+		"name": "Great Pyramid of Giza",
+		"pieces": 1476,
+		"set": 21058,
+		"release": 2022,
+		"retired": 2026,
+		"width": "13.5 in (35 cm)",
+		"height": "8 in (22 cm)",
+		"depth": "12.5 in (32 cm)",
+		"build_time": "N/A"
+	},
+	{
+		"name": "The White House",
+		"pieces": 1483,
+		"set": 21054,
+		"release": 2020,
+		"retired": 2024,
+		"width": "18 in (47 cm)",
+		"height": "4 in (11 cm)",
+		"depth": "7 in (20 cm)",
+		"build_time": "N/A"
+	}
+]
