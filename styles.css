@@ -1,0 +1,17 @@
+:root {
+	--lego-red: #c91a09;
+	--lego-yellow: #ffd700;
+	--lego-blue: #0055bf;
+	--white: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background-color: var(--lego-red);
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+}
