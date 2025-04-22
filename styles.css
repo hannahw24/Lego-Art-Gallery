@@ -57,6 +57,22 @@ body {
 	margin-bottom: 0;
 }
 
+.gallery_body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.frame {
+	display: none;
+}
+
+.gallery_body img {
+	width: 150px;
+	height: 100px;
+}
+
 footer {
 	display: flex;
 	background-color: var(--lego-red);
