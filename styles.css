@@ -45,6 +45,10 @@ body {
 	font-size: 4rem;
 }
 
+.intro_container a {
+	text-decoration: none;
+}
+
 .intro_container h2 {
 	color: var(--white);
 	text-align: center;
