@@ -13,8 +13,18 @@
 		<script src="/scripts/gallery.js" defer></script>
 	</head>
 	<body background="/images/Gallery_Background.png" class="gallery_body">
-		<div class="frame">
-			<img src="/images/Paris.PNG" alt="Lego Art 1" />
+		<div class="frame" style="z-index: 2">
+			<img
+				src="/images/Picture_Frame.png"
+				alt="Lego Picture Frame"
+				class="frame_background"
+				style="width: 200px; height: 120px; z-index: 3"
+			/>
+			<img
+				style="position: absolute; z-index: 1"
+				src="/images/Paris.PNG"
+				alt="Lego Art 1"
+			/>
 		</div>
 		<div class="frame">
 			<img src="/images/London.PNG" alt="Lego Art 2" />

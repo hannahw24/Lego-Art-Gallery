@@ -66,6 +66,10 @@ body {
 
 .frame {
 	display: none;
+	width: 160px;
+	height: 120px;
+	align-items: center;
+	justify-content: center;
 }
 
 .gallery_body img {
