@@ -9,23 +9,32 @@
 			type="text/css"
 			href="//fonts.googleapis.com/css?family=Sansita+One"
 		/>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="./styles/artStyles.css" />
 		<script src="./scripts/art.js" defer></script>
 	</head>
-	<body background="./images/Gallery_Background.png" class="body_gallery">
-		<div class="gallery_container">
+	<body background="./images/Lego_Art_Background.png" class="art_body">
+		<div class="buttons">
+			<img src="./images/Back_Button.png" alt="Back Button" id="back_button" />
+			<img
+				src="./images/Gift_Shop_Button.png"
+				alt="Gift Shop Button"
+				id="gift_shop_button"
+			/>
+		</div>
+		<div class="art_container">
 			<img
 				src="./images/Picture_Frame.png"
 				alt="Lego Picture Frame"
 				id="frame"
-				class="gallery_container__frame_red"
 			/>
-			<img
-				class="gallery_container__image"
-				src="./images/White_House.PNG"
-				alt="Lego Architecture White House"
-			/>
+			<img class="art_container__image" alt="Lego Architecture White House" />
 		</div>
-		<img src="./images/Yellow_Plaque.png" alt="Yellow Plaque" />
+		<div class="art_info_container">
+			<img src="./images/Yellow_Plaque.png" alt="Yellow Plaque" />
+			<div class="art_info">
+				<div class="art_info_left"></div>
+				<div class="art_info_right"></div>
+			</div>
+		</div>
 	</body>
 </html>
