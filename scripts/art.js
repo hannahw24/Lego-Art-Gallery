@@ -34,6 +34,7 @@ async function mainEvent() {
 			? (artImage.src = './images/Singapore.png')
 			: (artImage.src = './images/SF.PNG');
 	}
+	artImage.alt = `Lego Architecture ${setName}`;
 
 	// Display the set information
 	setInfoLeft.innerHTML = `

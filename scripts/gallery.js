@@ -4,5 +4,7 @@ function showDetails(setName) {
 	localStorage.setItem('setName', setName);
 
 	// Redirect to the art page
-	window.location.href = './art.html';
+	window.location.href.includes('gallery.html')
+		? (window.location.href = './art.html')
+		: (window.location.href = './gift-shop-set.html');
 }
