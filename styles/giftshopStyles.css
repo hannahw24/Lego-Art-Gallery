@@ -19,30 +19,79 @@ body {
 
 .gift_shop_body {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin: 0;
 }
 
-.gift_shop {
+.gift_shop_cashier_minifigure {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	column-gap: 24px;
-	flex-wrap: wrap;
+	margin-left: 24px;
+	margin-right: 12px;
+	width: 50vw;
+
+	h1 {
+		color: var(--lego-yellow);
+		background-color: var(--lego-red);
+		text-align: center;
+		border-radius: 15%;
+		padding: 12px;
+		position: relative;
+	}
+
+	h1:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 0;
+		height: 0;
+		border: 20px solid transparent;
+		border-right-color: var(--lego-red);
+		border-left: 0;
+		border-top: 0;
+		margin-top: -10px;
+		margin-left: -20px;
+	}
+}
+
+.gift_shop_minifigure {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-right: 12px;
 
 	img {
-		width: 150px;
-		height: 100px;
+		width: 200px;
+		height: 250px;
+	}
+}
+
+.carousel {
+	width: 50%;
+	height: 500px;
+	top: 15%;
+	overflow: hidden;
+	position: relative;
+	margin-right: 24px;
+}
+
+.gift_shop {
+	position: relative;
+	column-gap: 24px;
+
+	img {
+		width: 90%;
+		height: 500px;
 	}
 }
 
 .gift_shop_container {
 	display: flex;
-	width: 190px;
-	height: 110px;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
+	margin-right: 12px;
 	z-index: 1;
 
 	.gallery_container__image {

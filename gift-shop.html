@@ -11,59 +11,77 @@
 		/>
 		<link rel="stylesheet" href="./styles/giftshopStyles.css" />
 		<script src="./scripts/gallery.js" defer></script>
+		<script src="./scripts/gift-shop.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 	</head>
 	<body
 		background="./images/Lego_Gift_Shop_Background.png"
 		class="gift_shop_body"
 	>
-		<div class="gift_shop">
-			<div class="gift_shop_container" onclick="showDetails('Trevi Fountain')">
-				<img
-					class="gift_shop_container__image"
-					src="./images/Trevi_Fountain.png"
-					alt="Lego Architecture Trevi Fountain"
-				/>
-			</div>
-			<div
-				class="gift_shop_container"
-				onclick="showDetails('Notre-Dame de Paris')"
-			>
-				<img
-					class="gift_shop_container__image"
-					src="./images/Notre_Dame.png"
-					alt="Lego Architecture Notre Dame"
-				/>
-			</div>
-			<div class="gift_shop_container" onclick="showDetails('Himeji Castle')">
-				<img
-					class="gift_shop_container__image"
-					src="./images/Himeji_Castle.png"
-					alt="Lego Architecture Himeji Castle"
-				/>
-			</div>
-			<div class="gift_shop_container" onclick="showDetails('Taj Mahal')">
-				<img
-					class="gift_shop_container__image"
-					src="./images/Taj_Mahal.PNG"
-					alt="Lego Architecture Taj_Mahal"
-				/>
-			</div>
-			<div
-				class="gift_shop_container"
-				onclick="showDetails('Statue of Liberty')"
-			>
-				<img
-					class="gift_shop_container__image"
-					src="./images/Statue_Of_Liberty.png"
-					alt="Lego Architecture Statue of Liberty"
-				/>
-			</div>
-			<div class="gift_shop_container" onclick="showDetails('New York City')">
-				<img
-					class="gift_shop_container__image"
-					src="./images/NY.PNG"
-					alt="Lego Architecture New York City"
-				/>
+		<div class="gift_shop_cashier_minifigure">
+			<img src="./images/Lego_Cashier.png" alt="Lego cashier minifigure" />
+			<h1>
+				Thanks for visiting! <br /><br />Check out some lego sets available to
+				add to or start your collection! <br /><br />Click the image for more
+				details.
+			</h1>
+		</div>
+		<div class="gift_shop_minifigure">
+			<img src="./images/Lego_Front.PNG" alt="Lego women minifigure" />
+		</div>
+		<div class="carousel">
+			<div class="gift_shop">
+				<div
+					class="gift_shop_container"
+					onclick="showDetails('Trevi Fountain')"
+				>
+					<img
+						class="gift_shop_container__image"
+						src="./images/Trevi_Fountain.png"
+						alt="Lego Architecture Trevi Fountain"
+					/>
+				</div>
+				<div
+					class="gift_shop_container"
+					onclick="showDetails('Notre-Dame de Paris')"
+				>
+					<img
+						class="gift_shop_container__image"
+						src="./images/Notre_Dame.png"
+						alt="Lego Architecture Notre Dame"
+					/>
+				</div>
+				<div class="gift_shop_container" onclick="showDetails('Himeji Castle')">
+					<img
+						class="gift_shop_container__image"
+						src="./images/Himeji_Castle.png"
+						alt="Lego Architecture Himeji Castle"
+					/>
+				</div>
+				<div class="gift_shop_container" onclick="showDetails('Taj Mahal')">
+					<img
+						class="gift_shop_container__image"
+						src="./images/Taj_Mahal.PNG"
+						alt="Lego Architecture Taj_Mahal"
+					/>
+				</div>
+				<div
+					class="gift_shop_container"
+					onclick="showDetails('Statue of Liberty')"
+				>
+					<img
+						class="gift_shop_container__image"
+						src="./images/Statue_Of_Liberty.png"
+						alt="Lego Architecture Statue of Liberty"
+					/>
+				</div>
+				<div class="gift_shop_container" onclick="showDetails('New York City')">
+					<img
+						class="gift_shop_container__image"
+						src="./images/NY.PNG"
+						alt="Lego Architecture New York City"
+					/>
+				</div>
 			</div>
 		</div>
 	</body>

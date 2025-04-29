@@ -11,12 +11,11 @@ async function mainEvent() {
 
 	const setName = localStorage.getItem('setName');
 
-	const response = await fetch('./buy-architecture-sets.json');
+	const response = await fetch('./json/buy-architecture-sets.json');
 	const data = await response.json();
 	const architectureSet = data.filter(
 		(item) => item.name === localStorage.getItem('setName')
 	);
-	console.log('architectureSet', architectureSet);
 
 	// Set the frame color and image based on the set name
 	if (setName === 'Trevi Fountain' || setName === 'Notre-Dame de Paris') {
@@ -46,7 +45,7 @@ async function mainEvent() {
         <h1>WIDTH: <span>${architectureSet[0].width}</span></h1>
         <h1>HEIGHT: <span>${architectureSet[0].height}</span></h1>
         <h1>DEPTH: <span>${architectureSet[0].depth}</span></h1>
-        <h1><a href=${architectureSet[0].link}>LINK TO PURCHASE</a></h1>
+        <h1><a href=${architectureSet[0].link} target="_blank" rel="noopener noreferrer">LINK TO PURCHASE</a></h1>
     `;
 
 	// Add event listeners to the buttons

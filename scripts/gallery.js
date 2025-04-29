@@ -8,3 +8,8 @@ function showDetails(setName) {
 		? (window.location.href = './art.html')
 		: (window.location.href = './gift-shop-set.html');
 }
+
+function redirectToGiftShop() {
+	// Redirect to the gift shop page
+	window.location.href = './gift-shop.html';
+}

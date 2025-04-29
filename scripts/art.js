@@ -10,12 +10,11 @@ async function mainEvent() {
 
 	const setName = localStorage.getItem('setName');
 
-	const response = await fetch('./owned-architecture-sets.json');
+	const response = await fetch('./json/owned-architecture-sets.json');
 	const data = await response.json();
 	const architectureSet = data.filter(
 		(item) => item.name === localStorage.getItem('setName')
 	);
-	console.log('architectureSet', architectureSet);
 
 	// Set the frame color and image based on the set name
 	if (setName === 'Paris' || setName === 'The White House') {
