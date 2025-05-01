@@ -38,6 +38,8 @@ body {
 	color: var(--lego-yellow);
 	text-align: center;
 	font-size: 4rem;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 .intro_container a {
@@ -48,79 +50,7 @@ body {
 	color: var(--white);
 	text-align: center;
 	font-size: 3rem;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.body_gallery {
-	display: flex;
-	margin: 0;
-	justify-content: center;
-}
-
-.gallery {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	column-gap: 24px;
-	flex-wrap: wrap;
-}
-
-.gallery_container {
-	display: flex;
-	width: 190px;
-	height: 110px;
-	align-items: center;
-	justify-content: center;
-	z-index: 1;
-
-	.gallery_container__frame_red {
-		background-color: var(--lego-red);
-		width: 190px;
-		height: 140px;
-		z-index: 2;
-	}
-
-	.gallery_container__frame_yellow {
-		background-color: var(--lego-yellow);
-		width: 190px;
-		height: 140px;
-		z-index: 2;
-	}
-
-	.gallery_container__frame_blue {
-		background-color: var(--lego-blue);
-		width: 190px;
-		height: 140px;
-		z-index: 2;
-	}
-
-	.gallery_container__image {
-		position: absolute;
-		z-index: 3;
-	}
-}
-
-.gallery img {
-	width: 150px;
-	height: 100px;
-}
-
-.gift_shop_image {
-	position: absolute;
-	bottom: 4px;
-	right: 0px;
-	width: 200px;
-	height: 250px;
-}
-
-.minifigure_image {
-	position: absolute;
-	bottom: 0px;
-	right: calc(100vw - 50%);
-	width: 175px;
-	height: auto;
+	margin: 0px 12px;
 }
 
 footer {
@@ -131,4 +61,44 @@ footer {
 	bottom: 0px;
 	margin-bottom: 0px;
 	width: 100%;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+/* Mobile Styling */
+@media (max-width: 1024px) {
+	.intro_container img {
+		width: 200px;
+	}
+
+	.intro_container h1 {
+		font-size: 2.5rem;
+	}
+
+	.intro_container h2 {
+		font-size: 2rem;
+	}
+
+	.gallery {
+		column-gap: 12px;
+	}
+
+	.gallery_container {
+		width: 150px;
+		height: 90px;
+	}
+
+	.gallery img {
+		width: 120px;
+		height: 80px;
+	}
+
+	.gift_shop_image {
+		width: 150px;
+		height: 200px;
+	}
+
+	.minifigure_image {
+		width: 125px;
+	}
 }

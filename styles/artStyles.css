@@ -131,3 +131,34 @@ body {
 		transform: translateY(0);
 	}
 }
+
+/* Mobile Styling */
+@media (max-width: 1024px) {
+	.buttons img {
+		width: 75px;
+		height: 75px;
+	}
+
+	.art_info_container {
+		bottom: 24px;
+
+		img {
+			width: calc(100vw - 48px);
+			height: 250px;
+		}
+
+		.art_info {
+			width: calc(100vw - 96px);
+			height: 200px;
+			font-size: small;
+
+			h1 {
+				font-size: 1rem;
+			}
+
+			span {
+				font-size: 1rem;
+			}
+		}
+	}
+}

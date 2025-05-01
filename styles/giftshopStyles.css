@@ -113,3 +113,41 @@ body {
 		transform: translateY(0);
 	}
 }
+
+/* Mobile Styling */
+@media (max-width: 1024px) {
+	.gift_shop_cashier_minifigure {
+		width: 25vw;
+
+		img {
+			width: 100px;
+			height: 150px;
+			margin-left: 48px;
+		}
+
+		h1 {
+			font-size: 0.75rem;
+		}
+	}
+
+	.gift_shop_minifigure img {
+		width: 100px;
+		height: 150px;
+	}
+
+	.carousel {
+		height: 100px;
+		top: 50%;
+		width: 100%;
+	}
+
+	.gift_shop img {
+		width: 100%;
+		height: auto;
+	}
+
+	.gift_shop_container {
+		margin-right: 0;
+		justify-content: center;
+	}
+}

@@ -95,6 +95,7 @@ body.fade-out {
 	pointer-events: none;
 	z-index: 1;
 }
+
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -114,5 +115,42 @@ body.fade-out {
 	to {
 		opacity: 0;
 		transform: translateY(10px);
+	}
+}
+
+/* Mobile Styling */
+@media (max-width: 1024px) {
+	.gallery {
+		column-gap: 12px;
+		flex: 0;
+		margin: 12px 0;
+	}
+
+	.gallery_container {
+		width: 150px;
+		height: 90px;
+
+		.gallery_container__frame_red,
+		.gallery_container__frame_yellow,
+		.gallery_container__frame_blue {
+			width: 150px;
+			height: 110px;
+		}
+	}
+
+	.gallery img {
+		width: 120px;
+		height: 80px;
+	}
+
+	.gift_shop_image {
+		width: 120px;
+		height: 170px;
+	}
+
+	.minifigure_image {
+		width: 125px;
+		height: 180px;
+		right: calc(100vw - 35%);
 	}
 }
